@@ -1,2 +1,17 @@
-# Ai-Company-Enrichment
-An AI-powered automation tool that takes a list of company names and enriches it with useful lead-generation data using public APIs and LLMs (like OpenAI or Gemini).
+# 🤖 AI Company Enrichment Tool (LLaMA3)
+
+This Streamlit app enriches company names with detailed profiles using the LLaMA3 model from Groq's API.
+
+## 🔧 Features
+- Upload CSV with `company_name` column
+- AI-generated data: industry, HQ, website, summary, AI idea, etc.
+- Download enriched results as CSV
+- Optional: Enter company name manually
+
+## 🛠️ Setup
+
+```bash
+git clone https://github.com/yourusername/ai-company-enrichment.git
+cd ai-company-enrichment
+pip install -r requirements.txt
+
